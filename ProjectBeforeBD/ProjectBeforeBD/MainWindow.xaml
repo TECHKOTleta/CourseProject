@@ -17,14 +17,41 @@
             <ComboBoxItem Content="Париж"/>
             <ComboBoxItem Content="Нью-Йорк"/>
         </ComboBox>
-        <ComboBox x:Name="PassagerBox" Margin="530,100,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <ComboBoxItem Content="Мурманск"/>
-            <ComboBoxItem Content="Париж"/>
-            <ComboBoxItem Content="Нью-Йорк"/>
+        <ComboBox x:Name="PassagerBox" Margin="530,100,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0">
+            <ComboBoxItem Content="Эконом"/>
+            <ComboBoxItem Content="Комфорт"/>
+            <ComboBoxItem Content="Бизнес"/>
+            <ComboBoxItem Content="Первый класс"/>
         </ComboBox>
         <Label x:Name="FromLabel" Content="Откуда" HorizontalAlignment="Left" Margin="80,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="ToLabel" Content="Куда" HorizontalAlignment="Left" Margin="230,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="PassLabel" Content="Тип билета" HorizontalAlignment="Left" Margin="530,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="DateLabel" Content="Дата" HorizontalAlignment="Left" Margin="380,74,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,100,0,0" VerticalAlignment="Top" Width="150"/>
+        <Grid Margin="380,125,270,169">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="BackMonthBut" Grid.Column="0" Grid.Row="0" Content="&lt;"/>
+            <TextBlock x:Name="MonthLablt" TextAlignment="Center" Grid.Column="1" Grid.Row="0" Text="Декабрь" Grid.ColumnSpan="5"/>
+            <Button x:Name="NextMonthBut" Grid.Column="06" Grid.Row="0" Content="&gt;"/>
+        </Grid>
+
     </Grid>
 </Window>

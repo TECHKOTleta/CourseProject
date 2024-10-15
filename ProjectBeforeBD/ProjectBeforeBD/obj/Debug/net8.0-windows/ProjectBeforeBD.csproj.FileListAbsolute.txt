@@ -18,3 +18,4 @@ C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeB
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.pdb
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.genruntimeconfig.cache
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ref\ProjectBeforeBD.dll
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.sourcelink.json
