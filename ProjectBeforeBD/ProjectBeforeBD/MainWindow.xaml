@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="MainCanvas">
+        <Grid.Background>
+            <ImageBrush ImageSource="/MainBack.jpg"/>
+        </Grid.Background>
         <ComboBox x:Name="FromBox" Margin="80,100" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
             <ComboBoxItem Content="Мурманск"/>
             <ComboBoxItem Content="Париж"/>
@@ -17,7 +20,7 @@
             <ComboBoxItem Content="Париж"/>
             <ComboBoxItem Content="Нью-Йорк"/>
         </ComboBox>
-        <ComboBox x:Name="PassagerBox" Margin="530,100,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0">
+        <ComboBox x:Name="PassagerBox" Margin="534,100,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0">
             <ComboBoxItem Content="Эконом"/>
             <ComboBoxItem Content="Комфорт"/>
             <ComboBoxItem Content="Бизнес"/>
@@ -25,10 +28,10 @@
         </ComboBox>
         <Label x:Name="FromLabel" Content="Откуда" HorizontalAlignment="Left" Margin="80,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="ToLabel" Content="Куда" HorizontalAlignment="Left" Margin="230,74,0,0" VerticalAlignment="Top" Width="150"/>
-        <Label x:Name="PassLabel" Content="Тип билета" HorizontalAlignment="Left" Margin="530,74,0,0" VerticalAlignment="Top" Width="150"/>
-        <Label x:Name="DateLabel" Content="Дата" HorizontalAlignment="Left" Margin="380,74,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,100,0,0" VerticalAlignment="Top" Width="150" Click="DateBut_Click"/>
-        <Grid x:Name="DateGrid" Margin="380,125,266,159" Width="154" ShowGridLines="False">
+        <Label x:Name="PassLabel" Content="Тип билета" HorizontalAlignment="Left" Margin="534,74,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="DateLabel" Content="Дата" HorizontalAlignment="Left" Margin="380,74,0,0" VerticalAlignment="Top" Width="154"/>
+        <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,100,0,0" VerticalAlignment="Top" Width="154" Click="DateBut_Click" Background="#FFE5E5E5" BorderBrush="#FFACACAC"/>
+        <Grid x:Name="DateGrid" Margin="381,125,265,159" Width="154" Height="160" ShowGridLines="False">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -43,9 +46,9 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button x:Name="BackMonthBut" Grid.Column="0" Grid.Row="0" Content="&lt;"/>
-            <TextBlock x:Name="MonthLablt" TextAlignment="Center" Grid.Column="1" Grid.Row="0" Text="Декабрь" Grid.ColumnSpan="5"/>
-            <Button x:Name="NextMonthBut" Grid.Column="06" Grid.Row="0" Content="&gt;"/>
+            <Button x:Name="BackMonthBut" Grid.Column="0" Grid.Row="0" Content="&lt;" Click="BackMonthBut_Click"/>
+            <TextBlock x:Name="MonthLabl" TextAlignment="Center" Grid.Column="1" Grid.Row="0" Text="Декабрь" Grid.ColumnSpan="5"/>
+            <Button x:Name="NextMonthBut" Grid.Column="06" Grid.Row="0" Content="&gt;" Click="NextMonthBut_Click"/>
             <TextBlock TextAlignment="Center" Grid.Column="0" Grid.Row="1" Text="Вс"/>
             <TextBlock TextAlignment="Center" Grid.Column="1" Grid.Row="1" Text="Пн"/>
             <TextBlock TextAlignment="Center" Grid.Column="2" Grid.Row="1" Text="Вт"/>
@@ -55,6 +58,31 @@
             <TextBlock TextAlignment="Center" Grid.Column="6" Grid.Row="1" Text="Сб"/>
             <WrapPanel x:Name="CalenPanel" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="7"/>
         </Grid>
-
+        <Button x:Name="AgeBut" Content="Взрослые: (1)" HorizontalAlignment="Left" Margin="534,125,0,0" VerticalAlignment="Top" Width="150" Click="DateBut_Click" Background="#FFE5E5E5" BorderBrush="#FFACACAC" Height="20"/>
+        <Grid x:Name="AgeGrid" Margin="534,145,116,229" Width="150" Height="60">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="LButAdult" Grid.Column="0" Grid.Row="0" Content="&lt;" FontSize="5"/>
+            <Button x:Name="LButChild" Grid.Column="0" Grid.Row="1" Content="&lt;" FontSize="5"/>
+            <Button x:Name="LButToddler" Grid.Column="0" Grid.Row="2" Content="&lt;" FontSize="5"/>
+            <Button x:Name="RButAdult" Grid.Column="2" Grid.Row="0" Content="&gt;" FontSize="5"/>
+            <Button x:Name="RButChild" Grid.Column="2" Grid.Row="1" Content="&gt;" FontSize="5"/>
+            <Button x:Name="RButToddler" Grid.Column="2" Grid.Row="2" Content="&gt;" FontSize="5"/>
+            <TextBlock x:Name="CountAdult" TextAlignment="Center" Grid.Column="1" Grid.Row="0" Text="1"/>
+            <TextBlock x:Name="CountChild" TextAlignment="Center" Grid.Column="1" Grid.Row="1" Text="0"/>
+            <TextBlock x:Name="CountToddler" TextAlignment="Center" Grid.Column="1" Grid.Row="2" Text="0"/>
+            <TextBlock x:Name="TextAdult" Grid.Column="3" Grid.Row="0" Text="Взрослые"/>
+            <TextBlock x:Name="TextChild" Grid.Column="3" Grid.Row="1" Text="Дети"/>
+            <TextBlock x:Name="TextToddler"  Grid.Column="3" Grid.Row="2" Text="Младенцы (до 2 лет)"/>
+        </Grid>
     </Grid>
 </Window>
