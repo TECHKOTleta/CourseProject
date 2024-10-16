@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ProjectBeforeBD"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="MainCanvas">
         <ComboBox x:Name="FromBox" Margin="80,100" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
             <ComboBoxItem Content="Мурманск"/>
             <ComboBoxItem Content="Париж"/>
@@ -27,17 +27,12 @@
         <Label x:Name="ToLabel" Content="Куда" HorizontalAlignment="Left" Margin="230,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="PassLabel" Content="Тип билета" HorizontalAlignment="Left" Margin="530,74,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="DateLabel" Content="Дата" HorizontalAlignment="Left" Margin="380,74,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,100,0,0" VerticalAlignment="Top" Width="150"/>
-        <Grid Margin="380,125,270,169">
+        <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,100,0,0" VerticalAlignment="Top" Width="150" Click="DateBut_Click"/>
+        <Grid x:Name="DateGrid" Margin="380,125,266,159" Width="154" ShowGridLines="False">
             <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
@@ -51,6 +46,14 @@
             <Button x:Name="BackMonthBut" Grid.Column="0" Grid.Row="0" Content="&lt;"/>
             <TextBlock x:Name="MonthLablt" TextAlignment="Center" Grid.Column="1" Grid.Row="0" Text="Декабрь" Grid.ColumnSpan="5"/>
             <Button x:Name="NextMonthBut" Grid.Column="06" Grid.Row="0" Content="&gt;"/>
+            <TextBlock TextAlignment="Center" Grid.Column="0" Grid.Row="1" Text="Вс"/>
+            <TextBlock TextAlignment="Center" Grid.Column="1" Grid.Row="1" Text="Пн"/>
+            <TextBlock TextAlignment="Center" Grid.Column="2" Grid.Row="1" Text="Вт"/>
+            <TextBlock TextAlignment="Center" Grid.Column="3" Grid.Row="1" Text="Ср"/>
+            <TextBlock TextAlignment="Center" Grid.Column="4" Grid.Row="1" Text="Чт"/>
+            <TextBlock TextAlignment="Center" Grid.Column="5" Grid.Row="1" Text="Пт"/>
+            <TextBlock TextAlignment="Center" Grid.Column="6" Grid.Row="1" Text="Сб"/>
+            <WrapPanel x:Name="CalenPanel" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="7"/>
         </Grid>
 
     </Grid>

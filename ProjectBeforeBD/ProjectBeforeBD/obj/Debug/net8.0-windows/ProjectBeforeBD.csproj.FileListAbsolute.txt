@@ -19,3 +19,24 @@ C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeB
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.genruntimeconfig.cache
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ref\ProjectBeforeBD.dll
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.sourcelink.json
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\bin\Debug\net8.0-windows\ProjectBeforeBD.exe
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\bin\Debug\net8.0-windows\ProjectBeforeBD.deps.json
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\bin\Debug\net8.0-windows\ProjectBeforeBD.runtimeconfig.json
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\bin\Debug\net8.0-windows\ProjectBeforeBD.dll
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\bin\Debug\net8.0-windows\ProjectBeforeBD.pdb
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\App.g.cs
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD_MarkupCompile.cache
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD_MarkupCompile.lref
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\MainWindow.baml
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.g.resources
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.GeneratedMSBuildEditorConfig.editorconfig
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.AssemblyInfoInputs.cache
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.AssemblyInfo.cs
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.csproj.CoreCompileInputs.cache
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.sourcelink.json
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.dll
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\refint\ProjectBeforeBD.dll
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.pdb
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectBeforeBD.genruntimeconfig.cache
+D:\FamousProjects\Новая папка\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ref\ProjectBeforeBD.dll

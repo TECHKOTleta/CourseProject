@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ender\\.nuget\\packages\\": {}
+    "C:\\Users\\serge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\ProjectBeforeBD.csproj",
+      "projectUniqueName": "D:\\FamousProjects\\Новая папка\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\ProjectBeforeBD.csproj",
       "projectName": "ProjectBeforeBD",
-      "projectPath": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\ProjectBeforeBD.csproj",
-      "packagesPath": "C:\\Users\\Ender\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\obj\\",
+      "projectPath": "D:\\FamousProjects\\Новая папка\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\ProjectBeforeBD.csproj",
+      "packagesPath": "C:\\Users\\serge\\.nuget\\packages\\",
+      "outputPath": "D:\\FamousProjects\\Новая папка\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\serge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
