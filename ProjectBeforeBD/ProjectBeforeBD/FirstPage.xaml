@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ProjectBeforeBD"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <Grid x:Name="FirstCanvas" Height="450" Width="800">
         <Grid.Background>
             <ImageBrush ImageSource="/MainBack.jpg"/>
         </Grid.Background>
@@ -31,7 +31,7 @@
         <Label x:Name="PassLabel" Content="Тип билета" HorizontalAlignment="Left" Margin="534,107,0,0" VerticalAlignment="Top" Width="150"/>
         <Label x:Name="DateLabel" Content="Дата" HorizontalAlignment="Left" Margin="380,107,0,0" VerticalAlignment="Top" Width="154"/>
         <Button x:Name="DateBut" Content="Выбрать" HorizontalAlignment="Left" Margin="380,133,0,0" VerticalAlignment="Top" Width="154" Click="DateBut_Click" Background="#FFE5E5E5" BorderBrush="#FFACACAC"/>
-        <Grid x:Name="DateGrid" Margin="381,157,265,133" Width="154" Height="160" ShowGridLines="False">
+        <Grid x:Name="DateGrid" Margin="381,157,265,133" Width="154" Height="160" Tag="notForShow">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>

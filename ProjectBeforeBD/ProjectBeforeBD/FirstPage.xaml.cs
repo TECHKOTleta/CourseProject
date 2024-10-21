@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -27,16 +29,17 @@ namespace ProjectBeforeBD
             DateGrid.Visibility = Visibility.Hidden;
             CalendarSettings();
             AgeGrid.Visibility = Visibility.Hidden;
+            FancyStart(FirstCanvas);
         }
 
         public void CalendarSettings(int monthAdd = 0)
         {
             selectedDate = selectedDate.AddMonths(monthAdd);
-            System.Diagnostics.Trace.WriteLine(selectedDate.ToString());
+            //System.Diagnostics.Trace.WriteLine(selectedDate.ToString());
             DateTime startOfTheMonth = new DateTime(selectedDate.Year, selectedDate.Month, 1);
             int days = DateTime.DaysInMonth(selectedDate.Year, selectedDate.Month);
             int dayOfTheWeek = Convert.ToInt32(startOfTheMonth.DayOfWeek.ToString("d")) + 1;
-            System.Diagnostics.Trace.WriteLine(dayOfTheWeek);
+            //System.Diagnostics.Trace.WriteLine(dayOfTheWeek);
 
             MonthLabl.Text = selectedDate.ToString("MMMM");
             CalenPanel.Children.Clear();
@@ -61,6 +64,24 @@ namespace ProjectBeforeBD
                     TextDate.IsEnabled = false;
                 }
                 CalenPanel.Children.Add(TextDate);
+            }
+        }
+
+        public void FancyStart(Grid canvas)
+        {
+            Storyboard everyOpacity = new Storyboard();
+            DoubleAnimation opasityChange = new DoubleAnimation();
+            opasityChange.From = 0.0;
+            opasityChange.To = 1.0;
+            opasityChange.Duration = new Duration(TimeSpan.FromSeconds(4));
+            opasityChange.AutoReverse = false;
+
+            foreach (FrameworkElement item in canvas.Children)
+            {
+                Storyboard.SetTarget(opasityChange, item);
+                Storyboard.SetTargetProperty(opasityChange, new PropertyPath(FrameworkElement.OpacityProperty));
+                everyOpacity.Children.Add(opasityChange);
+                everyOpacity.Begin(item);
             }
         }
         public FirstPage()
