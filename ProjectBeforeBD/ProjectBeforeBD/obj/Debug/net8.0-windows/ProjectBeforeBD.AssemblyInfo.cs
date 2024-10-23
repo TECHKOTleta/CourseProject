@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectBeforeBD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc37a50898011c98c57102006b32c37f121eca37")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2278eb646f958c1d0eb4c9d71ea8e9811c60c962")]
+>>>>>>> MultiPage
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectBeforeBD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectBeforeBD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
