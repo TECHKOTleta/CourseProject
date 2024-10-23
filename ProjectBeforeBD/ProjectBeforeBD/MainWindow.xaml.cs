@@ -17,18 +17,13 @@ namespace ProjectBeforeBD
     public partial class MainWindow : Window
     {
         DateTime selectedDate = DateTime.Now;
-        int[] agesPassangers = [1, 0, 0];
-        public void Preparations()
-        {
-            
-        }
+        
 
         public MainWindow()
         {
             InitializeComponent();
             FirstPage firstPage = new FirstPage();
             this.Content = firstPage;
-            Preparations();
         }
 
 

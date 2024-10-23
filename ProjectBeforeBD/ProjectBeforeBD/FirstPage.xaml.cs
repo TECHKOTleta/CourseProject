@@ -24,15 +24,15 @@ namespace ProjectBeforeBD
     {
         DateTime selectedDate = DateTime.Now;
         int[] agesPassangers = [1, 0, 0];
-        public void Preparations()
+        public void Preparations()                              //действия при инициализации
         {
             DateGrid.Visibility = Visibility.Hidden;
             CalendarSettings();
             AgeGrid.Visibility = Visibility.Hidden;
-            FancyStart(FirstCanvas);
+            Common.FancyChange(FirstCanvas);
         }
 
-        public void CalendarSettings(int monthAdd = 0)
+        public void CalendarSettings(int monthAdd = 0)        //первичные и повторные настройки календаря
         {
             selectedDate = selectedDate.AddMonths(monthAdd);
             //System.Diagnostics.Trace.WriteLine(selectedDate.ToString());
@@ -67,23 +67,7 @@ namespace ProjectBeforeBD
             }
         }
 
-        public void FancyStart(Grid canvas)
-        {
-            Storyboard everyOpacity = new Storyboard();
-            DoubleAnimation opasityChange = new DoubleAnimation();
-            opasityChange.From = 0.0;
-            opasityChange.To = 1.0;
-            opasityChange.Duration = new Duration(TimeSpan.FromSeconds(4));
-            opasityChange.AutoReverse = false;
-
-            foreach (FrameworkElement item in canvas.Children)
-            {
-                Storyboard.SetTarget(opasityChange, item);
-                Storyboard.SetTargetProperty(opasityChange, new PropertyPath(FrameworkElement.OpacityProperty));
-                everyOpacity.Children.Add(opasityChange);
-                everyOpacity.Begin(item);
-            }
-        }
+        
         public FirstPage()
         {
             InitializeComponent();
@@ -91,7 +75,7 @@ namespace ProjectBeforeBD
         }
 
         //---------------------------------------------------НАЧАЛО ОПИСАНИЯ ЭЛЕМЕНТОВ---------------------------------------------
-        private void DateBut_Click(object sender, RoutedEventArgs e)
+        private void DateBut_Click(object sender, RoutedEventArgs e)     //появление календаря
         {
             DateGrid.Visibility = (DateGrid.Visibility == Visibility.Visible) ? Visibility.Hidden : Visibility.Visible;
         }
@@ -106,19 +90,22 @@ namespace ProjectBeforeBD
             CalendarSettings(+1);
         }
 
-        public void MonthDayClick(object sender, RoutedEventArgs e)
+        public void MonthDayClick(object sender, RoutedEventArgs e)    //сгенерированная кнопка календаря
         {
             Button thisBut = (Button)sender;
             selectedDate = selectedDate.AddDays(Convert.ToInt32(thisBut.Content) - selectedDate.Day);
+            Common.selectedDate = selectedDate;
             DateBut.Content = selectedDate.Date.ToString("dd/MM/yyyy");
             DateGrid.Visibility = Visibility.Hidden;
+
         }
 
-        private void AgeBut_Click(object sender, RoutedEventArgs e)
+        private void AgeBut_Click(object sender, RoutedEventArgs e)     //появление билетов по возрастам
         {
             AgeGrid.Visibility = Visibility.Visible;
         }
 
+        //кнопки возрастов----------------------------->
         private void LButAdult_Click(object sender, RoutedEventArgs e)
         {
             if (CountAdult.Text != "1")
@@ -158,6 +145,7 @@ namespace ProjectBeforeBD
         {
             CountToddler.Text = (Convert.ToInt32(CountToddler.Text) + 1).ToString();
         }
+        //<-------------------------------------конец кнопок возрастов
 
         private void SubmitAgeBut_Click(object sender, RoutedEventArgs e)
         {
@@ -181,6 +169,16 @@ namespace ProjectBeforeBD
                 ageContent = $"Взрослые: {agesPassangers[0]}, Дети: {agesPassangers[1]}";
             }
             AgeBut.Content = ageContent;
+            Common.agesPassangers = agesPassangers;
+        }
+
+
+        private void ToSecondWindowBut_Click(object sender, RoutedEventArgs e)
+        {
+            Common.fromPlace = Convert.ToString(FromBox.SelectionBoxItem);
+            Common.toPlace = Convert.ToString(ToBox.SelectionBoxItem);
+            Common.ticketType = Convert.ToString(PassagerBox.SelectionBoxItem);
+            Common.FancyChange(FirstCanvas, 1);
         }
     }
 }

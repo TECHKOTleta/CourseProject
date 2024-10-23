@@ -88,5 +88,6 @@
         </Grid>
         <Label x:Name="Naming" Content="AIRWAYS" HorizontalAlignment="Left" Margin="80,10,0,0" VerticalAlignment="Top" Height="50" Width="300" FontSize="36" Foreground="#FF2F77E9"/>
         <Label x:Name="Speach" Content="Всего в билете от мечты" HorizontalAlignment="Left" Margin="80,60,0,0" VerticalAlignment="Top" Height="42" Width="300" FontSize="24" Foreground="#FF00307B"/>
+        <Button x:Name="ToSecondWindowBut" Content="К оформлению &gt;" HorizontalAlignment="Right" Margin="0,0,50,50" VerticalAlignment="Bottom" Width="150" Click="ToSecondWindowBut_Click"/>
     </Grid>
 </UserControl>
