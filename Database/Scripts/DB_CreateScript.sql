@@ -9,7 +9,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 DROP SCHEMA IF EXISTS `airport` ;
 
--- -----------------------------------------------------
+-- --------------------------------------clients---------------
 -- Schema airport
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `airport` DEFAULT CHARACTER SET utf8mb3 ;
@@ -34,13 +34,15 @@ DEFAULT CHARACTER SET = utf8mb3;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `airport`.`clients` (
   `ID_client` INT NOT NULL AUTO_INCREMENT,
-  `FIO` VARCHAR(45) NOT NULL,
-  `Age` INT NOT NULL,
+  `Name` VARCHAR(60) NOT NULL,
+  `Surname` VARCHAR(60) NOT NULL,
+  `Thirdname` VARCHAR(60) NOT NULL,
+  `Birthdate` DATE NOT NULL,
   `Gender` VARCHAR(20) NOT NULL,
   `Passport_ser` INT NOT NULL,
   `Passport_num` INT NOT NULL,
-  `Tel` VARCHAR(22) NOT NULL,
   `Mail` VARCHAR(100) NOT NULL,
+  `Password` VARCHAR(50) NOT NULL,
   PRIMARY KEY (`ID_client`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb3;

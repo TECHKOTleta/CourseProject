@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\registrationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\secondpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\secondpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\firstpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\firstpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|c:\\users\\ender\\desktop\\tech_courses\\courseproject\\projectbeforebd\\projectbeforebd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1601D647-BC69-4803-B57C-8D92F3CC9B76}|ProjectBeforeBD\\ProjectBeforeBD.csproj|solutionrelative:projectbeforebd\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,91 +50,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\App.xaml",
-              "RelativeDocumentMoniker": "ProjectBeforeBD\\App.xaml",
-              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\App.xaml",
-              "RelativeToolTip": "ProjectBeforeBD\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T07:11:20.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProjectBeforeBD\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml",
               "RelativeToolTip": "ProjectBeforeBD\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T08:16:18.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T08:16:18.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProjectBeforeBD\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwEEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T08:16:14.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FirstPage.xaml",
               "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\FirstPage.xaml",
               "RelativeDocumentMoniker": "ProjectBeforeBD\\FirstPage.xaml",
               "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\FirstPage.xaml",
               "RelativeToolTip": "ProjectBeforeBD\\FirstPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T08:12:34.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T08:12:34.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SecondPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\SecondPage.xaml",
-              "RelativeDocumentMoniker": "ProjectBeforeBD\\SecondPage.xaml",
-              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\SecondPage.xaml",
-              "RelativeToolTip": "ProjectBeforeBD\\SecondPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T06:40:44.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProjectBeforeBD\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProjectBeforeBD\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T08:16:14.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FirstPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\FirstPage.xaml.cs",
               "RelativeDocumentMoniker": "ProjectBeforeBD\\FirstPage.xaml.cs",
               "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\FirstPage.xaml.cs",
               "RelativeToolTip": "ProjectBeforeBD\\FirstPage.xaml.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAmwLQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAmwNAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T08:13:37.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\RegistrationWindow.xaml",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\RegistrationWindow.xaml",
+              "RelativeToolTip": "ProjectBeforeBD\\RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-10T14:50:56.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\RegistrationWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "ProjectBeforeBD\\RegistrationWindow.xaml.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAMMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:24:09.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authorization.xaml",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Authorization.xaml",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\Authorization.xaml",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Authorization.xaml",
+              "RelativeToolTip": "ProjectBeforeBD\\Authorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T10:51:16.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Authorization.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Authorization.xaml.cs",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\Authorization.xaml.cs",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Authorization.xaml.cs",
+              "RelativeToolTip": "ProjectBeforeBD\\Authorization.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T11:01:04.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Common.cs",
               "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Common.cs",
               "RelativeDocumentMoniker": "ProjectBeforeBD\\Common.cs",
               "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\Common.cs",
               "RelativeToolTip": "ProjectBeforeBD\\Common.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBEAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T08:02:30.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\DataBase.cs",
+              "RelativeDocumentMoniker": "ProjectBeforeBD\\DataBase.cs",
+              "ToolTip": "C:\\Users\\Ender\\Desktop\\TECH_courses\\CourseProject\\ProjectBeforeBD\\ProjectBeforeBD\\DataBase.cs",
+              "RelativeToolTip": "ProjectBeforeBD\\DataBase.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T15:59:25.119Z"
             }
           ]
         }

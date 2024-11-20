@@ -29,7 +29,7 @@ namespace ProjectBeforeBD
             DateGrid.Visibility = Visibility.Hidden;
             CalendarSettings();
             AgeGrid.Visibility = Visibility.Hidden;
-            Common.FancyChange(FirstCanvas);
+            Common.FancyChange(MainCanvas);
         }
 
         public void CalendarSettings(int monthAdd = 0)        //первичные и повторные настройки календаря
@@ -41,7 +41,7 @@ namespace ProjectBeforeBD
             int dayOfTheWeek = Convert.ToInt32(startOfTheMonth.DayOfWeek.ToString("d")) + 1;
             //System.Diagnostics.Trace.WriteLine(dayOfTheWeek);
 
-            MonthLabl.Text = selectedDate.ToString("MMMM");
+            MonthLabl.Text = selectedDate.ToString("MMMM") + " " + selectedDate.Year;
             CalenPanel.Children.Clear();
 
             for (int i = 1; i < dayOfTheWeek; i++)
@@ -59,7 +59,7 @@ namespace ProjectBeforeBD
                 TextDate.Height = 18.755;
                 TextDate.Content = i.ToString();
                 TextDate.Click += MonthDayClick;
-                if (i < DateTime.Now.Day && selectedDate.Month == DateTime.Now.Month || selectedDate.Month < DateTime.Now.Month)
+                if ((i < DateTime.Now.Day && selectedDate.Month == DateTime.Now.Month && selectedDate.Year == DateTime.Now.Year) || (selectedDate.Month < DateTime.Now.Month && selectedDate.Year == DateTime.Now.Year) || selectedDate.Year < DateTime.Now.Year || selectedDate.Month - DateTime.Now.Month + (selectedDate.Year-DateTime.Now.Year)*12 > 6)
                 {
                     TextDate.IsEnabled = false;
                 }
@@ -67,7 +67,31 @@ namespace ProjectBeforeBD
             }
         }
 
-        
+        private void saveResoults()
+        {
+            Common.fromPlace = Convert.ToString(FromBox.SelectionBoxItem);
+            Common.toPlace = Convert.ToString(ToBox.SelectionBoxItem);
+            Common.ticketType = Convert.ToString(PassagerBox.SelectionBoxItem);
+            Common.selectedDate = selectedDate;
+        }
+
+        public void hideMe()
+        {
+            Common.FancyChange(MainCanvas, 1);
+        }
+
+        public void showMe()
+        {
+            Common.FancyChange(MainCanvas);
+        }
+
+        public void AccountEntered()
+        {
+            AuthBut.Visibility = Visibility.Hidden;
+            RegBut.Visibility = Visibility.Hidden;
+            AuthLabel.Content = $"Вы вошли в аккаунт!\nЗдравствуйте, {Common.userName}";
+        }
+
         public FirstPage()
         {
             InitializeComponent();
@@ -175,10 +199,20 @@ namespace ProjectBeforeBD
 
         private void ToSecondWindowBut_Click(object sender, RoutedEventArgs e)
         {
-            Common.fromPlace = Convert.ToString(FromBox.SelectionBoxItem);
-            Common.toPlace = Convert.ToString(ToBox.SelectionBoxItem);
-            Common.ticketType = Convert.ToString(PassagerBox.SelectionBoxItem);
-            Common.FancyChange(FirstCanvas, 1);
+            saveResoults();
+            //Common.FancyChange(FirstCanvas, 1);
+        }
+
+        private void RegBut_Click(object sender, RoutedEventArgs e)
+        {
+            saveResoults();
+            Common.TheMainWindow.changeWindow(2);
+        }
+
+        private void AuthBut_Click(object sender, RoutedEventArgs e)
+        {
+            saveResoults();
+            Common.TheMainWindow.changeWindow(3);
         }
     }
 }
