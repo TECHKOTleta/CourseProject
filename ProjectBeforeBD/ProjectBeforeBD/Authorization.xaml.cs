@@ -30,6 +30,7 @@ namespace ProjectBeforeBD
 
         public void showMe()
         {
+            ErrorText.Text = "";
             Common.FancyChange(MainCanvas);
         }
 

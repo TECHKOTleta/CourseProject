@@ -26,10 +26,14 @@ namespace ProjectBeforeBD
             FirstPage firstPage = new FirstPage();
             RegistrationWindow registrationWindow = new RegistrationWindow();
             Authorization authorizationWindow = new Authorization();
+            RaceChoose racePage = new RaceChoose();
+            PayPage payPage = new PayPage();
             Common.TheMainWindow = this;
             Common.firstPage = firstPage;
             Common.registrationWindow = registrationWindow;
             Common.authorizationWindow = authorizationWindow;
+            Common.racePage = racePage;
+            Common.payPage = payPage;
             changeWindow(1);
         }
 
@@ -45,6 +49,12 @@ namespace ProjectBeforeBD
                     break;
                 case 3:
                     Common.authorizationWindow.hideMe();
+                    break;
+                case 4:
+                    Common.racePage.hideMe();
+                    break;
+                case 5:
+                    Common.payPage.hideMe();
                     break;
                 default:
                     break;
@@ -63,6 +73,14 @@ namespace ProjectBeforeBD
                 case 3:
                     this.Content = Common.authorizationWindow;
                     Common.authorizationWindow.showMe();
+                    break;
+                case 4:
+                    this.Content = Common.racePage;
+                    Common.racePage.showMe();
+                    break;
+                case 5:
+                    this.Content = Common.payPage;
+                    Common.payPage.showMe();
                     break;
                 default:
                     break;

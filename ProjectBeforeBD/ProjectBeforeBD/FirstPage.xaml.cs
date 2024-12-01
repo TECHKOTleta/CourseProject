@@ -69,10 +69,17 @@ namespace ProjectBeforeBD
 
         private void saveResoults()
         {
-            Common.fromPlace = Convert.ToString(FromBox.SelectionBoxItem);
-            Common.toPlace = Convert.ToString(ToBox.SelectionBoxItem);
+            if(AirportFromBox.SelectedIndex != -1)
+            {
+                Common.fromPlace = AirportFromBox.SelectedItem as string;
+            }
+            if (AirportToBox.SelectedIndex != -1)
+            {
+                Common.toPlace = AirportToBox.SelectedItem as string;
+            }
             Common.ticketType = Convert.ToString(PassagerBox.SelectionBoxItem);
             Common.selectedDate = selectedDate;
+            Common.agesPassangers = agesPassangers;
         }
 
         public void hideMe()
@@ -82,6 +89,7 @@ namespace ProjectBeforeBD
 
         public void showMe()
         {
+            ErrorText.Text = "";
             Common.FancyChange(MainCanvas);
         }
 
@@ -200,7 +208,18 @@ namespace ProjectBeforeBD
         private void ToSecondWindowBut_Click(object sender, RoutedEventArgs e)
         {
             saveResoults();
-            //Common.FancyChange(FirstCanvas, 1);
+            if (Common.fromPlace == "testedFrom" || Common.toPlace == "testedTo")
+            {
+                ErrorText.Text = "Заполните все обязательные поля!";
+            }
+            else if(Common.currentEmail == "falseEmail")
+            {
+                ErrorText.Text = "Войдите в аккаунт!";
+            }
+            else
+            {
+                Common.TheMainWindow.changeWindow(4);
+            }
         }
 
         private void RegBut_Click(object sender, RoutedEventArgs e)
@@ -213,6 +232,48 @@ namespace ProjectBeforeBD
         {
             saveResoults();
             Common.TheMainWindow.changeWindow(3);
+        }
+
+        private void FromBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string exceptionAirport = AirportToBox.SelectedItem as string;
+            ComboBoxItem item = FromBox.SelectedItem as ComboBoxItem;
+            if (exceptionAirport == null)
+            {
+                exceptionAirport = "";
+            }
+            AirportFromBox.ItemsSource = DataBase.InsertAirports(item.Content.ToString(), exceptionAirport);
+        }
+
+        private void ToBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            string exceptionAirport = AirportFromBox.SelectedItem as string; //из-за способа создания они хранятся как string, не как ComboBoxItem
+            ComboBoxItem item = ToBox.SelectedItem as ComboBoxItem;
+            if (exceptionAirport == null)
+            {
+                exceptionAirport = "";
+            }
+            AirportToBox.ItemsSource = DataBase.InsertAirports(item.Content.ToString(), exceptionAirport);
+        }
+
+        private void AirportFromBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(ToBox.SelectedItem != null)
+            {
+                string exceptionAirport = AirportFromBox.SelectedItem as string; 
+                ComboBoxItem item = ToBox.SelectedItem as ComboBoxItem;
+                AirportToBox.ItemsSource = DataBase.InsertAirports(item.Content.ToString(), exceptionAirport);
+            }
+        }
+
+        private void AirportToBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (FromBox.SelectedItem != null)
+            {
+                string exceptionAirport = AirportToBox.SelectedItem as string;
+                ComboBoxItem item = FromBox.SelectedItem as ComboBoxItem;
+                AirportFromBox.ItemsSource = DataBase.InsertAirports(item.Content.ToString(), exceptionAirport);
+            }
         }
     }
 }

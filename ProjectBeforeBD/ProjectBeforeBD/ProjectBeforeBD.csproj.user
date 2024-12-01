@@ -13,6 +13,15 @@
     <Compile Update="FirstPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FlightBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PayPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RaceChoose.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="RegistrationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -24,7 +33,16 @@
     <Page Update="FirstPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="FlightBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PayPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RaceChoose.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="RegistrationWindow.xaml">

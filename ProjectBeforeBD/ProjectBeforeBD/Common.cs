@@ -16,15 +16,20 @@ namespace ProjectBeforeBD
         public static FirstPage firstPage;
         public static RegistrationWindow registrationWindow;
         public static Authorization authorizationWindow;
+        public static RaceChoose racePage;
+        public static PayPage payPage;
 
-        public static int[] agesPassangers;
         public static string fromPlace;
         public static string toPlace;
         public static DateTime selectedDate;
-        public static string ticketType;   //НЕЗАКОНЧЕНО СОХРАНЕНИЕ ТИПА БИЛЕТОВ
+        public static string ticketType;
+        public static int[] agesPassangers;
 
         public static string currentEmail;
         public static string userName;
+
+        public static int itogFlightIndex;
+        public static int itogPrice;
         static Common()
         {
             fromPlace = "testedFrom";

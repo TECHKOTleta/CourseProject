@@ -115,7 +115,7 @@ namespace ProjectBeforeBD
             }
             else
             {
-                ErrorText.Text = "Норм. Пойдёт.";
+                ErrorText.Text = "Переход на следующую страницу...";
                 //FIO = reformText.ToTitleCase(surName) + " " + reformText.ToTitleCase(name) + " " + reformText.ToTitleCase(thirdName);
                 DataBase.InsertUser(new string[] {name, surName, thirdName, selectedDate.ToString("yyyy-MM-dd"), gender, passportSer, passportNum, email, password});
                 Common.userName = name;

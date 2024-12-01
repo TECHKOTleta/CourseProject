@@ -11,15 +11,18 @@
             <ImageBrush ImageSource="/MainBack.jpg"/>
         </Grid.Background>
         <Rectangle HorizontalAlignment="Left" Height="240" Margin="62,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="638" Fill="#99C8C8C8" RadiusX="10" RadiusY="10"/>
-        <ComboBox x:Name="FromBox" Margin="80,133,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <ComboBoxItem Content="Мурманск"/>
-            <ComboBoxItem Content="Париж"/>
-            <ComboBoxItem Content="Нью-Йорк"/>
-        </ComboBox>
-        <ComboBox x:Name="ToBox" Margin="230,133,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top">
-            <ComboBoxItem Content="Мурманск"/>
-            <ComboBoxItem Content="Париж"/>
-            <ComboBoxItem Content="Нью-Йорк"/>
+        <ComboBox x:Name="FromBox" Margin="80,133,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="FromBox_SelectionChanged">
+            <ComboBoxItem Content="Россия"/>
+            <ComboBoxItem Content="США"/>
+            <ComboBoxItem Content="Китай"/>
+            <ComboBoxItem Content="Индия"/>
+            <ComboBoxItem Content="Таиланд"/>
+            <ComboBoxItem Content="Египет"/>
+            <ComboBoxItem Content="Турция"/>
+            <ComboBoxItem Content="ОАЭ"/>
+            <ComboBoxItem Content="Франция"/>
+            <ComboBoxItem Content="Германия"/>
+            <ComboBoxItem Content="Италия"/>
         </ComboBox>
         <ComboBox x:Name="PassagerBox" Margin="534,133,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0">
             <ComboBoxItem Content="Эконом"/>
@@ -94,5 +97,22 @@
         <Label x:Name="AuthLabel" Content="Вы не вошли в аккаунт!" HorizontalAlignment="Left" Margin="50,365,0,0" VerticalAlignment="Top" Height="45" Width="138"/>
         <Button x:Name="AuthBut" Content="Вход" HorizontalAlignment="Left" Margin="50,390,0,0" VerticalAlignment="Top" Width="64" Background="#FF5FA5DA" UseLayoutRounding="False" Click="AuthBut_Click"/>
         <Button x:Name="RegBut" Content="Регистрация" HorizontalAlignment="Left" Margin="114,390,0,0" VerticalAlignment="Top" Width="75" Background="#FF84C2F1" Click="RegBut_Click"/>
+        <ComboBox x:Name="ToBox" Margin="231,133,0,0" Width="150" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="ToBox_SelectionChanged">
+            <ComboBoxItem Content="Россия"/>
+            <ComboBoxItem Content="США"/>
+            <ComboBoxItem Content="Китай"/>
+            <ComboBoxItem Content="Индия"/>
+            <ComboBoxItem Content="Таиланд"/>
+            <ComboBoxItem Content="Египет"/>
+            <ComboBoxItem Content="Турция"/>
+            <ComboBoxItem Content="ОАЭ"/>
+            <ComboBoxItem Content="Франция"/>
+            <ComboBoxItem Content="Германия"/>
+            <ComboBoxItem Content="Италия"/>
+        </ComboBox>
+        <ComboBox x:Name="AirportFromBox" HorizontalAlignment="Left" Margin="80,157,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="AirportFromBox_SelectionChanged"/>
+        <ComboBox x:Name="AirportToBox" HorizontalAlignment="Left" Margin="231,157,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="AirportToBox_SelectionChanged"/>
+        <TextBlock x:Name="ErrorText" HorizontalAlignment="Left" Margin="534,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Foreground="Red" Height="40"/>
+        <TextBlock x:Name="InfoBlock" HorizontalAlignment="Left" Margin="381,287,0,0" TextWrapping="Wrap" Text="Оставьте дату пустой, если хотите просмотреть все актуальные предложения" VerticalAlignment="Top" Width="153" Height="50"/>
     </Grid>
 </UserControl>

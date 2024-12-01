@@ -64,3 +64,9 @@ C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeB
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\ProjectB.998A2342.Up2Date
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\Authorization.g.cs
 C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\Authorization.baml
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\RaceChoose.g.cs
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\RaceChoose.baml
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\FlightBar.g.cs
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\FlightBar.baml
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\PayPage.g.cs
+C:\Users\Ender\Desktop\TECH_courses\CourseProject\ProjectBeforeBD\ProjectBeforeBD\obj\Debug\net8.0-windows\PayPage.baml
